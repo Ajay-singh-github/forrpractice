@@ -10,6 +10,7 @@ input{
    box-shadow: rgb(118, 115, 115) 0px 0px  1.5px 1.5px;
    border-color: bisque;
    border-width: 0px;
+   text-wrap: balance;
 }
 
 @keyframes slideIn {
@@ -41,6 +42,12 @@ input:hover{
     animation-iteration-count: infinite;
     animation-direction: normal;
   
+}
+.maindiv{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+   
 }
 
 
