@@ -1,0 +1,38 @@
+
+charAt()
+length
+charCodeAt()
+concate(s1,s2,s3)
+startsWith()
+endsWith()
+include(string,pos)
+indexof(string,pos)
+lastIndexOf(string,pos)
+padStart(width,string)
+padEnd(width,string)
+slice(start index , end index)    // var sli = s.slice(-16,-14)   var sli = s.slice(16,14)   allow
+substring(start index, end index) //but not allow negative number
+substr(start index, width)
+split(string)
+<script>
+    function call()
+    {
+        //   var s = "ajay 5555 singh baghel from sikhata and doing job in it baghel sector"
+       var s = [["fizz",50,60],["fizza",40,60],["fizza",30,60],["fizz",20,60],["fizz",80,60],["fizz",90,60],["fizz",95,60]]
+       var r = [["limca",150,200],["pepsi",80,150],['thumsup',55,65]]
+      var m =s.findIndex(item=>item[0]=="fizza")
+      var d = s[m]
+       console.log(d)
+
+      
+    }
+    // call()
+
+    function callone()
+    {
+        var a = [1,2,3,4,5,6,7,8,9,10]
+        a.splice(3,4)
+        console.log(a)
+    }
+    callone()
+</script>
